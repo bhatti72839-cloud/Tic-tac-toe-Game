@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen</title>
+  </head>
+  <body>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- This line makes the game fit perfectly on mobile screens -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Tic-Tac-Toe</title>
+  
+  <!-- LINK TO YOUR CSS STYLES -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Tic-Tac-Toe</h1>
+  <div id="status">Player X's turn</div>
+
+  <!-- The 3x3 Game Board -->
+  <div class="board" id="board">
+    <div class="cell" data-index="0"></div>
+    <div class="cell" data-index="1"></div>
+    <div class="cell" data-index="2"></div>
+    <div class="cell" data-index="3"></div>
+    <div class="cell" data-index="4"></div>
+    <div class="cell" data-index="5"></div>
+    <div class="cell" data-index="6"></div>
+    <div class="cell" data-index="7"></div>
+    <div class="cell" data-index="8"></div>
+  </div>
+
+  <button onclick="restartGame()">Restart Game</button>
+
+  <!-- LINK TO YOUR JAVASCRIPT LOGIC -->
+  <script src="script.js"></script>
+
+</body>
+</html>
